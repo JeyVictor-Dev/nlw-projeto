@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>
+      dayjs.locale('pt-br')
+    </script>
+
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <form onsubmit="salvarAtividade(event)">
+
+        <div id="place" class="card-bg">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.6666 8.33335C16.6666 13.3334 9.99998 18.3334 9.99998 18.3334C9.99998 18.3334 3.33331 13.3334 3.33331 8.33335C3.33331 6.56524 4.03569 4.86955 5.28593 3.61931C6.53618 2.36907 8.23187 1.66669 9.99998 1.66669C11.7681 1.66669 13.4638 2.36907 14.714 3.61931C15.9643 4.86955 16.6666 6.56524 16.6666 8.33335Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M9.99998 10.8334C11.3807 10.8334 12.5 9.71407 12.5 8.33335C12.5 6.95264 11.3807 5.83335 9.99998 5.83335C8.61927 5.83335 7.49998 6.95264 7.49998 8.33335C7.49998 9.71407 8.61927 10.8334 9.99998 10.8334Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+
+          Florianópolis, SC
+        </div>
+
+        <div class="fields">
+          <div class="field-wrapper">
+
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.4884 2.15502C10.1759 1.84244 9.75201 1.66678 9.31002 1.66669H3.33335C2.89133 1.66669 2.4674 1.84228 2.15484 2.15484C1.84228 2.4674 1.66669 2.89133 1.66669 3.33335V9.31002C1.66678 9.75201 1.84244 10.1759 2.15502 10.4884L9.40835 17.7417C9.78712 18.1181 10.2994 18.3293 10.8334 18.3293C11.3673 18.3293 11.8796 18.1181 12.2584 17.7417L17.7417 12.2584C18.1181 11.8796 18.3293 11.3673 18.3293 10.8334C18.3293 10.2994 18.1181 9.78712 17.7417 9.40835L10.4884 2.15502Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M6.25002 6.66669C6.48014 6.66669 6.66669 6.48014 6.66669 6.25002C6.66669 6.0199 6.48014 5.83335 6.25002 5.83335C6.0199 5.83335 5.83335 6.0199 5.83335 6.25002C5.83335 6.48014 6.0199 6.66669 6.25002 6.66669Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+
+            <input type="text" placeholder="Qual a atividade?" name="atividade" required="">
+
+          </div>
+
+          <div class="field-wrapper">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.66667 1.66669V5.00002M13.3333 1.66669V5.00002M2.5 8.33335H17.5M4.16667 3.33335H15.8333C16.7538 3.33335 17.5 4.07955 17.5 5.00002V16.6667C17.5 17.5872 16.7538 18.3334 15.8333 18.3334H4.16667C3.24619 18.3334 2.5 17.5872 2.5 16.6667V5.00002C2.5 4.07955 3.24619 3.33335 4.16667 3.33335Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+
+            <select name="dia">
+              <option value="2024-03-01">01 de fevereiro</option>
+            </select>
+          </div>
+
+          <div class="field-wrapper">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 5.00002V10L13.3334 11.6667M18.3334 10C18.3334 14.6024 14.6024 18.3334 10 18.3334C5.39765 18.3334 1.66669 14.6024 1.66669 10C1.66669 5.39765 5.39765 1.66669 10 1.66669C14.6024 1.66669 18.3334 5.39765 18.3334 10Z" stroke="#A1A1AA" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+
+
+
+            <select name="hora">
+              <option value="10:30">10:30</option>
+            </select>
+          </div>
+
+        </div>
+
+        <button>Salvar atividade</button>
+      </form>
+
+      <main>
+        <h1>Atividades</h1>
+        <section></section>
+      </main>
+
+    </div>
+  </body>
+
+</html>
