@@ -1,8 +1,8 @@
-##  Agenda Seu Rolê: Organize suas atividades do dia a dia!
+##  Agenda Seu Rolê: Organize suas atividades do dia a dia🗓️!
 
 Este projeto é uma agenda pessoal simples, que te ajuda a registrar e visualizar suas atividades diárias. ️
 
-###  Funcionalidades
+###  ✨ Funcionalidades
 
 * **Cadastro de atividades:** Adicione novas atividades informando o nome, a data e a hora.
 * **Visualização:** Veja suas atividades organizadas por data e horário.
@@ -10,7 +10,7 @@ Este projeto é uma agenda pessoal simples, que te ajuda a registrar e visualiza
 * **Filtro por data (em desenvolvimento):** Em breve, você poderá filtrar suas atividades por uma data específica.
 
 
-###  Tecnologias utilizadas
+###  💻 Tecnologias utilizadas
 
 * HTML: Estrutura da página.
 * CSS: Estilização da página.
@@ -27,7 +27,7 @@ Este projeto está em constante desenvolvimento e aberto à contribuição da co
 * **Sincronização:** Possibilitar a sincronização das atividades entre diferentes dispositivos.
 
 
-###  Como usar
+### 🤔 Como usar
 
 1. **Clone o repositório:** Use o Git para clonar este projeto em seu computador.
 2. **Abra o arquivo `index.html`:** Isso abrirá a agenda em seu navegador.
