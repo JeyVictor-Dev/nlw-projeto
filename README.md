@@ -2,6 +2,9 @@
 
 Este projeto é uma agenda pessoal simples, que te ajuda a registrar e visualizar suas atividades diárias. ️
 
+![image da check list](https://github.com/user-attachments/assets/288d4025-7558-4a24-b0d4-ddd1b0e105b6)
+
+
 ###  ✨ Funcionalidades
 
 * **Cadastro de atividades:** Adicione novas atividades informando o nome, a data e a hora.
