@@ -37,3 +37,4 @@ Este projeto está em constante desenvolvimento e aberto à contribuição da co
 3. **Preencha o formulário:** Informe o nome da atividade, selecione a data e a hora e clique em "Salvar atividade".
 4. **Visualize suas atividades:** As atividades cadastradas serão exibidas na parte inferior da página.
 5. **Marque como concluída:** Clique no checkbox ao lado da atividade para marcá-la como concluída. (Em desenvolvimento)
+6. **Acesse o link:** https://check-list-nlw-projeto.vercel.app/
